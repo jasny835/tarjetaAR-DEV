@@ -78,9 +78,9 @@ const attach = (mesh: EffectMesh): Binding => {
 }
 
 ecs.registerComponent({
-  name: 'Chroma Key',
+  name: 'Video Chroma',
 
-  // Attach to a textured plane. Its existing image and UV settings are preserved.
+  // Attach to a video plane. Its existing video and UV settings are preserved.
   schema: {
     // @label Enabled
     enabled: ecs.boolean,
@@ -138,7 +138,10 @@ ecs.registerComponent({
     }
 
     // Retry on subsequent frames while the entity or texture is loading.
-    if (!mesh?.isMesh || !mesh.material || Array.isArray(mesh.material) || !mesh.material.map) {
+    if (
+      !mesh?.isMesh || !mesh.material || Array.isArray(mesh.material) ||
+      !mesh.material.map?.isVideoTexture
+    ) {
       release(instances, eid)
       return
     }

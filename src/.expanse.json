@@ -281,17 +281,18 @@
       "components": {
         "4502e00e-19ad-4886-b4ea-1478c18f9b4c": {
           "id": "4502e00e-19ad-4886-b4ea-1478c18f9b4c",
-          "name": "Chroma Key",
+          "name": "Video Chroma",
           "parameters": {
             "keyRed": 84,
             "keyGreen": 229,
             "keyBlue": 0,
             "tolerance": 0.12,
+            "softness": 0.04,
             "enabled": true
           }
         }
       },
-      "name": "Plano",
+      "name": "Video Chroma",
       "order": 5.524790437117074
     }
   },
