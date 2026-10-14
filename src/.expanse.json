@@ -28,53 +28,14 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.4038940050501252
     },
-    "729478ae-d067-4e0c-a753-66c2e9efb625": {
-      "components": {
-        "8fe14f4e-4311-4b03-807d-a34c9c11368d": {
-          "id": "8fe14f4e-4311-4b03-807d-a34c9c11368d",
-          "name": "example-component",
-          "parameters": {}
-        }
-      },
-      "geometry": {
-        "depth": 1,
-        "height": 1,
-        "type": "box",
-        "width": 1
-      },
-      "id": "729478ae-d067-4e0c-a753-66c2e9efb625",
-      "material": {
-        "color": "#7611b6",
-        "type": "basic",
-        "textureFiltering": "sharp"
-      },
-      "name": "Box",
-      "position": [
-        0.12763469397908966,
-        0.5850426945389586,
-        0
-      ],
-      "rotation": [
-        0,
-        0.9999203815114674,
-        0,
-        0.012618662288905971
-      ],
-      "scale": [
-        1.0000000000000007,
-        1,
-        1.0000000000000007
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.4038940050501252
-    },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
         }
       },
       "components": {},
@@ -83,9 +44,9 @@
       "material": null,
       "name": "Camera",
       "position": [
-        0,
-        2,
-        3.0106171308995897
+        0.1025820546268124,
+        0.6780433457489008,
+        3.2756079887117067
       ],
       "rotation": [
         0.00044368872331410124,
@@ -129,13 +90,223 @@
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
+    },
+    "bde6aecc-fb32-4e02-ad5e-675869ae2c38": {
+      "id": "bde6aecc-fb32-4e02-ad5e-675869ae2c38",
+      "position": [
+        0,
+        0.5584341746260375,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Objetivo de la imagen",
+      "imageTarget": {
+        "name": "tarjeta-dde-presentacion-jasnack122"
+      },
+      "order": 2.8688714214166753
+    },
+    "b9c80904-1dc5-41b5-ab26-3a5819f36146": {
+      "id": "b9c80904-1dc5-41b5-ab26-3a5819f36146",
+      "position": [
+        -0.6188993159292873,
+        0.27066646463356153,
+        0.16278737343864735
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "4a53d38a-3ea9-421f-b81c-54744b98d8e4": {
+          "id": "4a53d38a-3ea9-421f-b81c-54744b98d8e4",
+          "name": "Open URL UI Button",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Botón",
+      "order": 4.181570052517544
+    },
+    "e0cb8b8a-4d2a-47b9-a56a-96991e7edb51": {
+      "id": "e0cb8b8a-4d2a-47b9-a56a-96991e7edb51",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b9c80904-1dc5-41b5-ab26-3a5819f36146",
+      "components": {
+        "8fab0bb3-751f-4584-91eb-ffd12f68b45e": {
+          "id": "8fab0bb3-751f-4584-91eb-ffd12f68b45e",
+          "name": "Open URL UI Button",
+          "parameters": {}
+        }
+      },
+      "name": "Icono",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/social.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "borderRadiusTopLeft": "",
+        "borderRadiusTopRight": "",
+        "borderRadiusBottomLeft": "",
+        "borderRadiusBottomRight": ""
+      },
+      "order": 0.2142191330745143
+    },
+    "fd5a9a8a-6142-4900-9540-df8f640c0d40": {
+      "id": "fd5a9a8a-6142-4900-9540-df8f640c0d40",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b9c80904-1dc5-41b5-ab26-3a5819f36146",
+      "components": {},
+      "name": "Texto",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "whastapp",
+        "color": "#ffffff",
+        "fontSize": 11,
+        "font": {
+          "type": "font",
+          "font": "Inconsolata"
+        },
+        "textAlign": "left"
+      },
+      "order": 1.0012938418281545
+    },
+    "34bbe696-251c-4728-bf4c-4ade25359e44": {
+      "id": "34bbe696-251c-4728-bf4c-4ade25359e44",
+      "position": [
+        0.4497226508969475,
+        0.2532709147719383,
+        -1.3877787807814457e-17
+      ],
+      "rotation": [
+        0.023533270172791505,
+        0,
+        0,
+        0.9997230542480124
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/WhatsApp_Video_2026-10-13_at_61613_PM.mp4"
+        },
+        "forceTransparent": false
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "4502e00e-19ad-4886-b4ea-1478c18f9b4c": {
+          "id": "4502e00e-19ad-4886-b4ea-1478c18f9b4c",
+          "name": "Chroma Key",
+          "parameters": {
+            "keyRed": 84,
+            "keyGreen": 229,
+            "keyBlue": 0,
+            "tolerance": 0.12,
+            "enabled": true
+          }
+        }
+      },
+      "name": "Plano",
+      "order": 5.524790437117074
     }
   },
   "spaces": {
     "88453035-dc0f-486d-868a-8ff7c2fda864": {
       "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "name": "Default Space",
-      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "sky": {
+        "type": "gradient",
+        "colors": [
+          "#464766",
+          "#0c092a"
+        ]
+      }
     }
   },
   "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864"
