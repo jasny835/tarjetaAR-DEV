@@ -245,23 +245,23 @@
       },
       "order": 1.0012938418281545
     },
-    "34bbe696-251c-4728-bf4c-4ade25359e44": {
-      "id": "34bbe696-251c-4728-bf4c-4ade25359e44",
+    "369f3404-4eda-4258-af48-b3caee999381": {
+      "id": "369f3404-4eda-4258-af48-b3caee999381",
       "position": [
-        0.4497226508969475,
-        0.2532709147719383,
-        -1.3877787807814457e-17
+        0,
+        0,
+        0
       ],
       "rotation": [
-        0.023533270172791505,
+        -0.15637447683196307,
         0,
         0,
-        0.9997230542480124
+        0.9876978399265283
       ],
       "scale": [
         1,
-        1.0000000532124818,
-        1.0000000532124818
+        1.0000000532124824,
+        1.0000000532124824
       ],
       "geometry": {
         "type": "plane",
@@ -269,31 +269,17 @@
         "height": 1
       },
       "material": {
-        "type": "unlit",
+        "type": "basic",
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/WhatsApp_Video_2026-10-13_at_61613_PM.mp4"
-        },
-        "forceTransparent": false
-      },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "4502e00e-19ad-4886-b4ea-1478c18f9b4c": {
-          "id": "4502e00e-19ad-4886-b4ea-1478c18f9b4c",
-          "name": "Video Chroma",
-          "parameters": {
-            "keyRed": 84,
-            "keyGreen": 229,
-            "keyBlue": 0,
-            "tolerance": 0.12,
-            "softness": 0.04,
-            "enabled": true
-          }
+          "asset": "assets/WhatsApp_Video_2026-10-03_at_45356_PM_1.mp4"
         }
       },
-      "name": "Video Chroma",
-      "order": 5.524790437117074
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "video chroma ",
+      "order": 5.770104782293983
     }
   },
   "spaces": {
