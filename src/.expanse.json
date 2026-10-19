@@ -91,34 +91,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "bde6aecc-fb32-4e02-ad5e-675869ae2c38": {
-      "id": "bde6aecc-fb32-4e02-ad5e-675869ae2c38",
-      "position": [
-        0.0481792609382411,
-        0.03095351706621896,
-        8.673617379884035e-19
-      ],
-      "rotation": [
-        -0.7034567596897465,
-        0,
-        0,
-        0.7107380581105829
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "Objetivo de la imagen",
-      "imageTarget": {
-        "name": "tarjeta-dde-presentacion-jasnack122"
-      },
-      "order": 2.8688714214166753
-    },
     "6a317c9b-f113-4eee-aa87-fbfec642a83b": {
       "id": "6a317c9b-f113-4eee-aa87-fbfec642a83b",
       "position": [
@@ -159,7 +131,8 @@
             "keyRed": 0,
             "keyGreen": 235,
             "keyBlue": 47,
-            "tolerance": 0.12
+            "tolerance": 0.12,
+            "enabled": false
           }
         }
       },
@@ -449,6 +422,42 @@
       "name": "Botón (3)",
       "order": 9.387074629232345,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+    },
+    "f62c8dc9-8e3d-4a62-a3b3-83e171d1057a": {
+      "id": "f62c8dc9-8e3d-4a62-a3b3-83e171d1057a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071068031708356,
+        0,
+        0,
+        0.7071067592022586
+      ],
+      "scale": [
+        1.1709862895974317,
+        0.5122509726029015,
+        0.7046565903758181
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/tarjeta_dde_presentacion_jasnack.jpg"
+        }
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Plano (3)",
+      "order": 13.412291102735868
     }
   },
   "spaces": {
