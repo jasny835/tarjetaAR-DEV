@@ -94,7 +94,7 @@
     "bde6aecc-fb32-4e02-ad5e-675869ae2c38": {
       "id": "bde6aecc-fb32-4e02-ad5e-675869ae2c38",
       "position": [
-        0,
+        0.0481792609382411,
         0.03095351706621896,
         8.673617379884035e-19
       ],
@@ -123,19 +123,19 @@
       "id": "6a317c9b-f113-4eee-aa87-fbfec642a83b",
       "position": [
         -0.3357453403623093,
-        0.22086895203841797,
-        0.20336678381966358
+        0.23658384506609273,
+        -0.21876313890225454
       ],
       "rotation": [
-        0.5170024505582005,
+        -0.23469435483236992,
         0,
         0,
-        0.8559839169732195
+        0.9720692155447666
       ],
       "scale": [
         0.29858423891616204,
-        0.4441806461956488,
-        0.6910079742364961
+        0.44418064619564884,
+        0.6910079742364963
       ],
       "geometry": {
         "type": "plane",
@@ -150,21 +150,21 @@
           "asset": "assets/WhatsApp_Video_2026-10-14_at_125753_PM.mp4"
         }
       },
-      "parentId": "bde6aecc-fb32-4e02-ad5e-675869ae2c38",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
         "48f2cedb-3512-462a-b545-b67b71b28f46": {
           "id": "48f2cedb-3512-462a-b545-b67b71b28f46",
           "name": "Chroma Key",
           "parameters": {
             "keyRed": 0,
-            "keyGreen": 0,
-            "keyBlue": 0,
+            "keyGreen": 235,
+            "keyBlue": 47,
             "tolerance": 0.12
           }
         }
       },
       "name": "Plano",
-      "order": 4.800242881519816,
+      "order": 9.834739011015534,
       "videoControls": {
         "loop": true
       }
@@ -173,14 +173,14 @@
       "id": "fa592a36-f6d1-49c1-8813-0ef45f1d56d7",
       "position": [
         0.3003048123904326,
-        0.2311626680033157,
-        0.12883339333008556
+        0.16216040232561532,
+        -0.22982379244952708
       ],
       "rotation": [
-        0.4898782704150782,
+        -0.26509203343472837,
         0,
         0,
-        0.8717908465768217
+        0.9642231141231996
       ],
       "scale": [
         0.21288247708870184,
@@ -213,116 +213,34 @@
         }
       },
       "name": "Plano (1)",
-      "order": 6.495489534817205,
+      "order": 8.834548092833623,
       "videoControls": {
         "loop": true
       },
-      "parentId": "bde6aecc-fb32-4e02-ad5e-675869ae2c38",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "hidden": false
     },
     "e835ab13-b57c-444d-b21f-36ee6152dbc6": {
       "id": "e835ab13-b57c-444d-b21f-36ee6152dbc6",
       "position": [
-        0.038267497239864036,
-        -0.06559300415520267,
-        0.06655893974368285
+        0.20805993854470323,
+        0.09378731893839806,
+        0.06627489560743445
       ],
       "rotation": [
-        0.7165208022981231,
+        0.01855127945590243,
         0,
         0,
-        0.6975657244117245
+        0.9998279102078264
       ],
       "scale": [
         0.14258987734781467,
-        0.14203332542325894,
-        1.1485764035273431
+        0.14203332542325897,
+        1.1485764035273434
       ],
       "geometry": null,
       "material": null,
-      "parentId": "bde6aecc-fb32-4e02-ad5e-675869ae2c38",
-      "components": {
-        "05d30fb1-ab40-4d88-afe1-b8c522f08d05": {
-          "id": "05d30fb1-ab40-4d88-afe1-b8c522f08d05",
-          "name": "Open URL UI Button",
-          "parameters": {
-            "url": "https://www.tiktok.com/@jasny.c?_r=1&_t=ZS-9AcjTKeOPi4",
-            "openInNewTab": false
-          }
-        }
-      },
-      "ui": {
-        "type": "3d",
-        "width": 100,
-        "height": 36,
-        "background": "#87318a",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "backgroundOpacity": 1,
-        "padding": "10",
-        "gap": "6",
-        "alignItems": "center",
-        "justifyContent": "center"
-      },
-      "name": "Botón",
-      "order": 7.882261594728131
-    },
-    "71042868-e468-4c12-8634-e55942e6e2de": {
-      "id": "71042868-e468-4c12-8634-e55942e6e2de",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "e835ab13-b57c-444d-b21f-36ee6152dbc6",
-      "components": {},
-      "name": "Texto",
-      "ui": {
-        "width": 86,
-        "height": 14,
-        "text": "Tik Tok",
-        "color": "#ffffff",
-        "fontSize": 16,
-        "font": {
-          "type": "font",
-          "font": "Roboto"
-        }
-      },
-      "order": 1.4111712555730902
-    },
-    "f047b620-fe06-4ee7-9b94-0349ad27cbdf": {
-      "id": "f047b620-fe06-4ee7-9b94-0349ad27cbdf",
-      "position": [
-        0.1944227075037109,
-        -0.06890659676703738,
-        0.06463887271639351
-      ],
-      "rotation": [
-        0.6970672150121594,
-        0.003199073749139672,
-        -0.0031749039249258605,
-        0.7169916203606616
-      ],
-      "scale": [
-        0.14258987734781467,
-        0.14203332542325905,
-        1.1485764035273422
-      ],
-      "geometry": null,
-      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
         "05d30fb1-ab40-4d88-afe1-b8c522f08d05": {
           "id": "05d30fb1-ab40-4d88-afe1-b8c522f08d05",
@@ -334,6 +252,7 @@
         }
       },
       "ui": {
+        "text": "wpp",
         "type": "3d",
         "width": 100,
         "height": 36,
@@ -344,64 +263,32 @@
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
-        "justifyContent": "center"
-      },
-      "name": "Botón (1)",
-      "order": 9.811851611067379,
-      "parentId": "bde6aecc-fb32-4e02-ad5e-675869ae2c38"
-    },
-    "16c3684c-6afb-43d2-bde5-f8c3c4979b63": {
-      "id": "16c3684c-6afb-43d2-bde5-f8c3c4979b63",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "f047b620-fe06-4ee7-9b94-0349ad27cbdf",
-      "components": {},
-      "name": "Texto (1)",
-      "ui": {
-        "width": 86,
-        "height": 14,
-        "text": "wpp",
-        "color": "#ffffff",
-        "fontSize": 16,
+        "justifyContent": "center",
         "font": {
           "type": "font",
           "font": "Roboto"
-        }
+        },
+        "verticalTextAlign": "center"
       },
-      "order": 1
+      "name": "Botón",
+      "order": 7.450878660813663
     },
     "1c7bc0f5-03d8-4a25-a13f-9e7937238530": {
       "id": "1c7bc0f5-03d8-4a25-a13f-9e7937238530",
       "position": [
         0.35763303477316855,
-        -0.07712236787228383,
-        0.06447764041655844
+        0.09463359657259973,
+        0.07778221656635863
       ],
       "rotation": [
-        0.7091258458673828,
-        0.0032524542975698534,
-        -0.003120196921215641,
-        0.705067529131135
+        0.008018207242764004,
+        0.00011671943575593916,
+        -0.004505603661914903,
+        0.9999576962376094
       ],
       "scale": [
         0.14258987734781467,
-        0.1420333254232593,
+        0.14203332542325936,
         1.148576403527343
       ],
       "geometry": null,
@@ -431,8 +318,8 @@
         "justifyContent": "center"
       },
       "name": "Botón (2)",
-      "order": 11.607901796082135,
-      "parentId": "bde6aecc-fb32-4e02-ad5e-675869ae2c38"
+      "order": 10.56943034018854,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     },
     "f530d96a-139e-4858-b4d9-b376dfac1383": {
       "id": "f530d96a-139e-4858-b4d9-b376dfac1383",
@@ -504,11 +391,64 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
       "name": "Plano (2)",
-      "order": 4.711130585397387,
+      "order": 11.744775538763166,
       "videoControls": {
         "loop": true,
         "positional": true
       }
+    },
+    "2789477c-3472-435e-bf6b-6419584f4c71": {
+      "id": "2789477c-3472-435e-bf6b-6419584f4c71",
+      "position": [
+        -0.0038416285763531732,
+        0.0968335054248344,
+        0.06627489560743445
+      ],
+      "rotation": [
+        0.018551279455902427,
+        0,
+        0,
+        0.9998279102078264
+      ],
+      "scale": [
+        0.14258987734781467,
+        0.14203332542325897,
+        1.1485764035273434
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "05d30fb1-ab40-4d88-afe1-b8c522f08d05": {
+          "id": "05d30fb1-ab40-4d88-afe1-b8c522f08d05",
+          "name": "Open URL UI Button",
+          "parameters": {
+            "url": "https://www.tiktok.com/@jasny.c?_r=1&_t=ZS-9AcjTKeOPi4",
+            "openInNewTab": false
+          }
+        }
+      },
+      "ui": {
+        "text": "Tik Tok",
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#87318a",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "font": {
+          "type": "font",
+          "font": "Roboto"
+        },
+        "verticalTextAlign": "center"
+      },
+      "name": "Botón (3)",
+      "order": 9.387074629232345,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     }
   },
   "spaces": {
